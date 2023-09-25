@@ -151,28 +151,7 @@ table {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 476px) {    
-    body{
-        background-image: url(img/wallpaper.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100;
-        background-position: center;
-    }
-
 }@media only screen and (max-width: 476px) {
-    header {
-        background-color: transparent;
-        border: 20px;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding:25px;
-        font-size: small;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    a {text-decoration: none;
-        color: white;
-    }
     body{
         background-image: url(img/wallpaper.jpg);
         background-repeat: no-repeat;
@@ -181,30 +160,4 @@ table {
         background-position: center;
     }
     
-    .button {
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: #f200ff78; 
-        justify-content: center;
-        align-items: center;
-        border-radius: 150px; 
-        box-shadow: 1px 1px 15px rgb(0, 0, 0); 
-        margin: 20px; 
-        text-align: center;
-        background-position: center center;
-        font-size: small;
-        cursor: pointer;
-        transition: 0.5s ;
-      
-    }
-    .button:hover {
-    background-color: #f200ffd0;
-}
-    footer{
-        text-align: center;
-        font-family: 'Times New Roman';
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-    }
-
 }
