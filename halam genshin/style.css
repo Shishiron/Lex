@@ -1,0 +1,210 @@
+body {
+    background-image: url(img/wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto auto ;
+
+    
+}
+div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:top;
+    margin: auto auto;
+    display:block;
+
+}
+
+hr {
+    border:1px solid aqua;
+    box-shadow: 0px 0px 3px aqua;
+
+
+}
+
+.bar {
+    background-color: white;
+    height:20px;
+    position:relative;
+    border-radius: 50px;
+    border: 1px aqua solid;
+    box-shadow:0px 0px 3px aqua;
+
+}
+.bar-main {
+    background-color: white;
+    height:35px;
+    position:relative;
+    border-radius: 50px;
+    border: 1px aqua solid;
+    box-shadow:0px 0px 3px aqua;
+
+}
+
+
+.bar-progress {
+    background-image: linear-gradient(to right, rgb(13, 236, 87), blue, rgb(235, 27, 27));
+    border-radius: 50px;
+    height: 20px ;
+    position: absolute;
+
+}
+.bar-progress-main {
+    background-image: linear-gradient(to right, rgb(13, 236, 87), blue, rgb(235, 27, 27));
+    border-radius: 50px;
+    height: 35px ;
+    position: absolute;
+
+}
+
+
+.bar-progress1 {
+    background-image: linear-gradient(to right, rgb(234, 2, 255), rgb(0, 255, 0), hsl(170, 84%, 51%));
+    border-radius: 50px;
+    height: 20px ;
+    position: absolute;
+
+}
+
+
+.child1{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 1px;
+    font-family:arial;
+    font-style: italic;
+    color:white;
+
+
+}
+
+.child2 {
+    position:absolute;
+    margin-left: 100%;
+    font-family:arial;
+    font-style: italic;
+    font-size:15px;
+
+}
+.child-main2 {
+    position:absolute;
+    margin-left: 100%;
+    font-family:arial;
+    font-style: italic;
+    font-size:30px;
+
+}
+
+
+.child3 {
+    position:absolute;
+    margin-left: 600%;
+    font-family:arial;
+    font-style: italic;
+    font-size:15px;
+    color: black;
+
+}
+
+.child4{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 1px;
+    font-family:arial;
+    font-style: italic;
+    color:black;
+
+}
+
+.child-main{
+    color:white;
+    font-family: arial;
+    font-style:italic;
+    text-align:center;
+    font-size:30px;
+
+
+}
+
+table {
+
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 20px;
+    
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 476px) {    
+    body{
+        background-image: url(img/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100;
+        background-position: center;
+    }
+
+}@media only screen and (max-width: 476px) {
+    header {
+        background-color: transparent;
+        border: 20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding:25px;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a {text-decoration: none;
+        color: white;
+    }
+    body{
+        background-image: url(img/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 480px 100%;
+        background-position: center;
+    }
+    
+    .button {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f200ff78; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 150px; 
+        box-shadow: 1px 1px 15px rgb(0, 0, 0); 
+        margin: 20px; 
+        text-align: center;
+        background-position: center center;
+        font-size: small;
+        cursor: pointer;
+        transition: 0.5s ;
+      
+    }
+    .button:hover {
+    background-color: #f200ffd0;
+}
+    footer{
+        text-align: center;
+        font-family: 'Times New Roman';
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+    }
+
+}

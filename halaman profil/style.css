@@ -1,0 +1,119 @@
+
+header {
+    background-color: transparent;
+    border: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:25px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.profile-picture {
+    width: 100px;
+    justify-content: center;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+a {text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(image/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    text-decoration: wavy;
+    color: rgb(255, 255, 255);
+    border-width: medium;
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f200ff78; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px; 
+    box-shadow: 1px 1px 15px rgb(0, 0, 0); 
+    margin: 20px; 
+    text-align: center;
+    background-position: center center;
+  
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: rgb(255, 255, 255);
+}
+
+div {
+    background-color: rgba(0, 190, 190, 0.7);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(13, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+
+}
+strong{
+    text-shadow: 2px 2px 5px red;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p {
+
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 476px) {
+    p {
+
+        font-family: 'Times New Roman';
+        font-size: medium;
+        color: white;
+        margin-left: 20px;
+    }
+
+    strong{
+        text-shadow: 2px 2px 5px red;
+        font-size: 3em;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+        font-family: 'Times New Roman';
+        color: rgb(255, 255, 255);
+        font-size: small;
+    }
+
+    img {
+        width: 55px;
+        height: 55px;
+    }
+}
